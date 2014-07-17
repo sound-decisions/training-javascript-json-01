@@ -1,0 +1,12 @@
+dataHandler ({
+	"full_name" : "Jeff Cummings", 
+	"title" : "Web Developer", 
+	"company" : "Sound Decisions", 
+	"items_title" : "Portfolio", 
+	"items" : [
+		{ "main_website" : "http://www.sound-decisions.ca" }, 
+		{ "tsdn" : "http://www.the-sound-decisions-network.com" }, 
+		{ "my_movie_collection" : "http://www.my-movie-collection.com" }, 
+		{ "i_want_to_be_a_loser" : "http://www.iwanttobealoser.com" }
+	]
+});

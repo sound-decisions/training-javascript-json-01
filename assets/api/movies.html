@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" href="/assets/images/fav_icons/sd_favicon_purple.png" type="image/x-icon" />
+	<title>Movies using JavaScript and JSON</title>
+	<link href="/assets/css/bootstrap.min.css" rel="stylesheet">
+	<link href="/assets/css/custom.css" rel="stylesheet">
+</head>
+<body>
+	
+	<div class="container">
+		<div class="row">
+			<div class="col col-md-12">	
+
+				<h2>Movies using JavaScript and JSON</h2>
+
+			</div> <!-- end of - col -->
+		</div> <!-- end of - row -->
+		<div class="row">
+			<div class="col col-md-12 margin-top-20">	
+				
+				<div id="speakerbox">
+					<div id="carousel"></div>
+				</div>
+
+			</div> <!-- end of - col -->
+		</div> <!-- end of - row -->		
+	</div> <!-- end of - container -->
+
+
+	<script id="movies_tpl" type="text/template">
+		{{#movies}}
+			<div class="movie clearfix margin-bottom-20">
+				<div class="col-md-3">
+					<img src="images/{{image}}" alt="{{title}} DVD Cover" class="img-responsive" />
+				</div>
+				<div class="col-md-9">
+					<h3>{{title}}</h3>
+					<h5>{{year}} - {{genre}}</h5>
+					<p>{{plot}}</p>
+				</div>
+			</div>
+		{{/movies}}
+	</script>
+
+	<!-- <script src="http://code.jquery.com/jquery-latest.min.js"></script> -->
+    <!-- <script src="assets/js/bootstrap.min.js"></script> -->
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery.cycle/3.03/jquery.cycle.all.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/mustache.js/0.8.1/mustache.min.js"></script>    
+    <script>
+
+    	$(function() {
+
+    		// Load data.
+    		$.getJSON('movie_data.json', function(data) {
+
+    			var template = $('#movies_tpl').html();
+
+    			var html = Mustache.to_html(template, data);
+
+    			$('#carousel').html(html);	
+
+    		}); // end of - getJSON.
+
+    	}); // end of - function
+   		
+    </script>
+</body>
+</html>

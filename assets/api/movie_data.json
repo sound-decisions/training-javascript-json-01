@@ -1,0 +1,72 @@
+{ "movies" : [
+	{
+		"title" 	: "2 Guns", 
+		"year" 		: "2013", 
+		"genre" 	: "Action, Comedy, Crime", 
+		"plot"		: "A DEA agent and a naval intelligence officer find themselves on the run after a botched attempt to infiltrate a drug cartel. While fleeing, they learn the secret of their shaky alliance: Neither knew that the other was an undercover agent.", 
+		"image"		: "2_Guns_1397598272.jpg"
+	}, 
+	{
+		"title" 	: "3 Days to Kill", 
+		"year" 		: "2014", 
+		"genre" 	: "Action, Crime, Drama", 
+		"plot"		: "A dying CIA agent trying to reconnect with his estranged daughter is offered an experimental drug that could save his life in exchange for one last assignment.", 
+		"image"		: "3_Days_to_Kill_1399661905.jpg"
+	}, 
+	{
+		"title" 	: "Grudge Match", 
+		"year" 		: "2013", 
+		"genre" 	: "Comedy, Romance", 
+		"plot"		: "A pair of aging boxing rivals are coaxed out of retirement to fight one final bout -- 30 years after their last match.", 
+		"image"		: "Grudge_Match_1400726100.jpg"
+	}, 
+	{
+		"title" 	: "Oldboy", 
+		"year" 		: "2013", 
+		"genre" 	: "Action, Drama, Mystery", 
+		"plot"		: "An advertising executive is kidnapped and held hostage for 20 years in solitary confinement. When he is inexplicably released, he embarks on an obsessive mission to discover who orchestrated his punishment, only to find he is still trapped in a web of conspiracy and torment.", 
+		"image"		: "Oldboy_1397598291.jpg"
+	}, 
+	{
+		"title" 	: "Rio 2", 
+		"year" 		: "2014", 
+		"genre" 	: "Adventure, Animation, Comedy", 
+		"plot"		: "It's a jungle out there for Blu, Jewel and their three kids after they're hurtled from Rio de Janeiro to the wilds of the Amazon. As Blu tries to fit in, he goes beak-to-beak with the vengeful Nigel, and meets his father-in-law.", 
+		"image"		: "Rio_2_1404508151.jpg"
+	}, 
+	{
+		"title" 	: "The Boondock Saints", 
+		"year" 		: "1999", 
+		"genre" 	: "Action, Crime, Thriller", 
+		"plot"		: "Fraternal twins set out to rid Boston of the evil men operating there while being tracked down by an FBI agent.", 
+		"image"		: "The_Boondock_Saints_1397598237.jpg"
+	}, 
+	{
+		"title" 	: "The Boondock Saints II: All Saints Day", 
+		"year" 		: "2009", 
+		"genre" 	: "Action, Comedy, Crime, Drama, Thriller", 
+		"plot"		: "The MacManus brothers are living a quiet life in Ireland with their father, but when they learn that their beloved priest has been killed by mob forces, they go back to Boston to bring justice to those responsible and avenge the priest.", 
+		"image"		: "The_Boondock_Saints_II_All_Saints_Day_1397598237.jpg"
+	}, 
+	{
+		"title" 	: "The Internship", 
+		"year" 		: "2013", 
+		"genre" 	: "Comedy", 
+		"plot"		: "Two salesmen whose careers have been torpedoed by the digital age find their way into a coveted internship at Google, where they must compete with a group of young, tech-savvy geniuses for a shot at employment.", 
+		"image"		: "The_Internship_1397598245.jpg"
+	}, 
+	{
+		"title" 	: "The Nut Job", 
+		"year" 		: "2014", 
+		"genre" 	: "Adventure, Animation, Comedy", 
+		"plot"		: "An incorrigibly self-serving exiled squirrel finds himself helping his former park brethren raid a nut store to survive, that is also the front for a human gang's bank robbery.", 
+		"image"		: "The_Nut_Job_1397598324.jpg"
+	}, 
+	{
+		"title" 	: "The Secret Life of Walter Mitty", 
+		"year" 		: "2013", 
+		"genre" 	: "Adventure, Comedy, Drama", 
+		"plot"		: "A day-dreamer escapes his anonymous life by disappearing into a world of fantasies filled with heroism, romance and action. When his job along with that of his co-worker are threatened, he takes action in the real world embarking on a global journey that turns into an adventure more extraordinary than anything he could have ever imagined.", 
+		"image"		: "The_Secret_Life_of_Walter_Mitty_1397598301.jpg"
+	}									
+]}
